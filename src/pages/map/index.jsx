@@ -36,7 +36,7 @@ export default function AprendendoMap() {
       </h1>
       {agentes.map((agente) => {
         // para cada "agente", renderize:
-        return <Distintivo agente={agente}/>
+        return <Distintivo agente={agente}/> //[0]
       })}
       <br/>
       <h1 className="text-2xl font-bold">
